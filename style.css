@@ -20,6 +20,7 @@ p, li {
 body {
     background-color: hsl(218, 28%, 13%);
     color: white;
+    
     overflow-x: hidden;
 }
 main {
@@ -37,12 +38,14 @@ nav ul{
 nav ul li {
     font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     list-style-type: none;
-    margin-left: 1.3em;
-    
+    margin-left: 1.2em;
 }
 .hero {
     height: 100vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .hero img {
     display: flex;
@@ -179,6 +182,7 @@ footer {
     padding: 3%;
     background-color: hsl(216, 53%, 9%);
     width: 100%;
+    margin: 0;
 }
 footer ul {
     margin-top: 24px;
