@@ -111,17 +111,18 @@ nav ul li {
     justify-content: center;
     margin: 40px auto;
 }
+.productivity-img {
+    width: 60%;
+    min-width: 150px;
+    max-width: 300px;
+}
 .productivity img {
     max-width: 400px;
+
     margin: 45px;
 }
 .productivity-text p {
     margin-top: 20px;
-}
-.productivity-image {
-    width: 50%;
-    min-width: 200px;
-    max-width: 300px;
 }
 a {
     color: hsl(170, 45%, 43%);
@@ -179,7 +180,9 @@ input {
     border: none;
     margin-bottom: 20px;
 }
-
+::placeholder {
+    text-align: center;
+}
 .early-access button {
     padding: 20px;
     border-radius: 28px;
@@ -188,7 +191,7 @@ input {
     background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
 }
 footer {
-    padding: 3%;
+    padding: 5%;
     background-color: hsl(216, 53%, 9%);
     width: 100%;
     margin: 0;
