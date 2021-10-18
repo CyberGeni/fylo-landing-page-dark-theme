@@ -20,11 +20,10 @@ p, li {
 body {
     background-color: hsl(218, 28%, 13%);
     color: white;
-    
     overflow-x: hidden;
 }
 main {
-    margin: 4%;
+    margin: 4% auto;
 }
 header {
     display: flex;
