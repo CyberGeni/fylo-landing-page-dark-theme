@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 h1, h2, h3, h5, h6, small, button {
     font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -30,6 +29,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+header img {
+    width: 30%;
+    max-width: 115px;
 }
 nav ul{
     display: flex;
@@ -176,6 +179,7 @@ input {
     border: none;
     margin-bottom: 20px;
 }
+
 .early-access button {
     padding: 20px;
     border-radius: 28px;
@@ -230,6 +234,9 @@ ul img {
 }
 /* media queries/breakpoints */
 @media screen and (min-width:960px) {
+    .logo {
+        max-width: 10px;
+    }
     .features {
         display: grid;
         grid-template-columns: auto auto;
